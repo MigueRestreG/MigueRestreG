@@ -1,10 +1,4 @@
 <h1 align="center"> Hi there 👋, I'm Miguelangel</h1>
-
-<a target="_blank" href="https://www.stefanosst.gr"><img src="https://github.com/StefanosSt/StefanosSt/blob/main/Group%203.png"/></a>
-
-<p align="center">
-</p>
-
 <pre>
 💻 I am developing my skills as a Frontend Developer | Enthuastic about new technologies
 📚 I have a Bachelors in Computer Science and a Masters in Artificial Intelligence & Deep Learning
