@@ -1,136 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="400" viewBox="0 0 1200 400">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
   <defs>
-    <style>
-      @font-face {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      }
-      
-      .banner-bg {
-        fill: url(#gradient);
-      }
-      
-      .main-title {
-        font-size: 72px;
-        font-weight: bold;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        fill: white;
-        text-anchor: middle;
-        letter-spacing: 2px;
-        animation: titleGlow 3s ease-in-out infinite;
-      }
-      
-      .subtitle {
-        font-size: 28px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        fill: #e0e0e0;
-        text-anchor: middle;
-        font-weight: 300;
-        letter-spacing: 1px;
-      }
-      
-      .accent-line {
-        stroke: #00d4ff;
-        stroke-width: 3;
-        animation: lineGlow 2s ease-in-out infinite;
-      }
-      
-      @keyframes titleGlow {
-        0%, 100% { filter: drop-shadow(0 0 5px rgba(0, 212, 255, 0.3)); }
-        50% { filter: drop-shadow(0 0 15px rgba(0, 212, 255, 0.6)); }
-      }
-      
-      @keyframes lineGlow {
-        0%, 100% { opacity: 0.5; }
-        50% { opacity: 1; }
-      }
-      
-      @keyframes float {
-        0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0; }
-        10% { opacity: 1; }
-        90% { opacity: 1; }
-        100% { transform: translateY(-400px) translateX(20px); opacity: 0; }
-      }
-      
-      @keyframes floatSlow {
-        0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0; }
-        10% { opacity: 0.8; }
-        90% { opacity: 0.8; }
-        100% { transform: translateY(-400px) translateX(-30px); opacity: 0; }
-      }
-      
-      @keyframes rotateLogo {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-      
-      .star {
-        fill: #00d4ff;
-      }
-      
-      .nextjs-logo {
-        animation: rotateLogo 20s linear infinite;
-        transform-origin: 70px 70px;
-      }
-      
-      .react-logo {
-        animation: rotateLogo 20s linear infinite reverse;
-        transform-origin: 1130px 70px;
-      }
-    </style>
-    
     <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color: #0f0f23; stop-opacity: 1;" />
       <stop offset="50%" style="stop-color: #1a1a3e; stop-opacity: 1;" />
       <stop offset="100%" style="stop-color: #0f0f23; stop-opacity: 1;" />
     </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="400" class="banner-bg" />
+  <rect width="1200" height="400" fill="url(#gradient)" />
 
   <!-- Animated particle stream 1 -->
-  <circle cx="150" cy="400" r="2" class="star" style="animation: float 4s ease-in 0s infinite;">
-    <animate attributeName="r" values="2;0" dur="4s" begin="0s" repeatCount="indefinite" />
+  <circle cx="150" cy="400" r="2" fill="#00d4ff">
+    <animate attributeName="cy" from="400" to="0" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="r" values="2;2;1;0" dur="4s" repeatCount="indefinite" />
   </circle>
   
-  <circle cx="200" cy="400" r="2" class="star" style="animation: float 5s ease-in 0.5s infinite;">
-    <animate attributeName="r" values="2;0" dur="5s" begin="0.5s" repeatCount="indefinite" />
+  <circle cx="200" cy="400" r="2" fill="#00d4ff">
+    <animate attributeName="cy" from="400" to="-20" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="r" values="2;2;1;0" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="200" to="230" dur="5s" repeatCount="indefinite" />
   </circle>
   
-  <circle cx="300" cy="400" r="2" class="star" style="animation: float 4.5s ease-in 1s infinite;">
-    <animate attributeName="r" values="2;0" dur="4.5s" begin="1s" repeatCount="indefinite" />
+  <circle cx="300" cy="400" r="2" fill="#00d4ff">
+    <animate attributeName="cy" from="400" to="0" dur="4.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;1;0" dur="4.5s" repeatCount="indefinite" />
+    <animate attributeName="r" values="2;2;1;0" dur="4.5s" repeatCount="indefinite" />
   </circle>
   
-  <circle cx="450" cy="400" r="2" class="star" style="animation: float 5.5s ease-in 1.5s infinite;">
-    <animate attributeName="r" values="2;0" dur="5.5s" begin="1.5s" repeatCount="indefinite" />
+  <circle cx="450" cy="400" r="2" fill="#00d4ff">
+    <animate attributeName="cy" from="400" to="-30" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;1;0" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="r" values="2;2;1;0" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="450" to="480" dur="5.5s" repeatCount="indefinite" />
   </circle>
 
   <!-- Animated particle stream 2 -->
-  <circle cx="850" cy="400" r="2" class="star" style="animation: floatSlow 6s ease-in 0.3s infinite;">
-    <animate attributeName="r" values="2;0" dur="6s" begin="0.3s" repeatCount="indefinite" />
+  <circle cx="850" cy="400" r="2" fill="#00d4ff">
+    <animate attributeName="cy" from="400" to="0" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="r" values="2;2;1;0" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="850" to="820" dur="6s" repeatCount="indefinite" />
   </circle>
   
-  <circle cx="950" cy="400" r="2" class="star" style="animation: floatSlow 5.5s ease-in 0.8s infinite;">
-    <animate attributeName="r" values="2;0" dur="5.5s" begin="0.8s" repeatCount="indefinite" />
+  <circle cx="950" cy="400" r="2" fill="#00d4ff">
+    <animate attributeName="cy" from="400" to="-20" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;1;0" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="r" values="2;2;1;0" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="950" to="920" dur="5.5s" repeatCount="indefinite" />
   </circle>
   
-  <circle cx="1050" cy="400" r="2" class="star" style="animation: floatSlow 6.5s ease-in 1.3s infinite;">
-    <animate attributeName="r" values="2;0" dur="6.5s" begin="1.3s" repeatCount="indefinite" />
+  <circle cx="1050" cy="400" r="2" fill="#00d4ff">
+    <animate attributeName="cy" from="400" to="0" dur="6.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;1;0" dur="6.5s" repeatCount="indefinite" />
+    <animate attributeName="r" values="2;2;1;0" dur="6.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="1050" to="1020" dur="6.5s" repeatCount="indefinite" />
   </circle>
 
-  <!-- Decorative elements -->
-  <line x1="150" y1="150" x2="350" y2="150" class="accent-line" />
-  <line x1="850" y1="250" x2="1050" y2="250" class="accent-line" />
+  <!-- Decorative lines -->
+  <line x1="150" y1="150" x2="350" y2="150" stroke="#00d4ff" stroke-width="3">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+  </line>
+  
+  <line x1="850" y1="250" x2="1050" y2="250" stroke="#00d4ff" stroke-width="3">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+  </line>
 
-  <!-- Next.js Logo (left side) -->
-  <g class="nextjs-logo">
+  <!-- Next.js Logo (left side) - Rotating -->
+  <g>
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0 70 70;360 70 70" dur="20s" repeatCount="indefinite" />
     <circle cx="70" cy="70" r="50" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.3" />
     <circle cx="70" cy="70" r="35" fill="none" stroke="#ffffff" stroke-width="2" />
-    <text x="70" y="78" style="font-size: 32px; font-weight: bold; font-family: Arial; fill: white; text-anchor: middle;">N</text>
+    <text x="70" y="78" font-size="32" font-weight="bold" fill="white" text-anchor="middle">N</text>
   </g>
 
-  <!-- React Logo (right side) -->
-  <g class="react-logo">
+  <!-- React Logo (right side) - Rotating reverse -->
+  <g>
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="360 1130 70;0 1130 70" dur="20s" repeatCount="indefinite" />
     <circle cx="1130" cy="70" r="50" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.3" />
     <circle cx="1130" cy="70" r="35" fill="none" stroke="#61dafb" stroke-width="2" />
     <!-- Electron orbits -->
@@ -142,14 +97,16 @@
   </g>
 
   <!-- Main title -->
-  <text x="600" y="160" class="main-title">MIGUELANGEL RESTREPO</text>
+  <text x="600" y="160" font-size="72" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="2" filter="url(#glow)">MIGUELANGEL RESTREPO</text>
 
   <!-- Subtitle -->
-  <text x="600" y="230" class="subtitle">Full Stack Developer</text>
+  <text x="600" y="230" font-size="28" fill="#e0e0e0" text-anchor="middle" letter-spacing="1">Full Stack Developer</text>
 
   <!-- Bottom accent line -->
-  <line x1="300" y1="280" x2="900" y2="280" class="accent-line" opacity="0.5" />
+  <line x1="300" y1="280" x2="900" y2="280" stroke="#00d4ff" stroke-width="3" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.8;0.5" dur="2s" repeatCount="indefinite" />
+  </line>
 
   <!-- Tech keywords -->
-  <text x="600" y="330" style="font-size: 16px; font-family: 'Segoe UI', sans-serif; fill: #00d4ff; text-anchor: center; letter-spacing: 3px; animation: titleGlow 3s ease-in-out infinite;">REACT • NODE.JS • TYPESCRIPT • SCRUM</text>
+  <text x="600" y="330" font-size="16" fill="#00d4ff" text-anchor="middle" letter-spacing="3" filter="url(#glow)">REACT • NODE.JS • TYPESCRIPT • SCRUM</text>
 </svg>
