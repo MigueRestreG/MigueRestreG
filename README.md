@@ -54,23 +54,14 @@ With a background in Computer Science and a Master's in Artificial Intelligence 
 
 ## 🏛️ My Professional Approach
 
-### Clean Architecture
-I build applications with clear separation of concerns, reusable components, and maintainable code.
-
-### Scalability
-I design solutions with growth in mind: from prototype to millions of users.
-
-### Clear Documentation
-I create accessible documentation that serves both developers and stakeholders, facilitating collaboration and onboarding.
-
-### Team Collaboration
-Strong communication and collaborative mindset. I believe in knowledge sharing and collective problem-solving within agile teams.
-
-### Scrum Methodology
-Experienced in agile development with Scrum practices: sprint planning, daily standups, retrospectives, and continuous improvement.
-
-### User Experience
-Every line of code aims to deliver real value to end users.
+| Approach | Focus |
+|----------|-------|
+| 🏗️ **Clean Architecture** | Clear separation of concerns, reusable components, and maintainable code |
+| 📈 **Scalability** | Solutions designed from prototype to millions of users |
+| 📚 **Clear Documentation** | Accessible docs for developers and stakeholders |
+| 👥 **Team Collaboration** | Knowledge sharing and collective problem-solving |
+| 🔄 **Scrum Methodology** | Sprint planning, standups, retrospectives, continuous improvement |
+| 💡 **User Experience** | Every line of code delivers real value to end users |
 
 ---
 
