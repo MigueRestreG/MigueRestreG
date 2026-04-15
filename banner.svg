@@ -197,25 +197,25 @@
 
   <!-- Next.js Logo (left side) - Static with official Next.js N design -->
   <g>
-    <circle cx="320" cy="135" r="50" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.3" />
-    <circle cx="320" cy="135" r="35" fill="none" stroke="#ffffff" stroke-width="2" />
-    <text x="320" y="143" font-size="32" font-weight="bold" fill="white" text-anchor="middle">N</text>
+    <circle cx="320" cy="135" r="82" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.3" />
+    <circle cx="320" cy="135" r="58" fill="none" stroke="#ffffff" stroke-width="3" />
+    <text x="320" y="152" font-size="52" font-weight="bold" fill="white" text-anchor="middle">N</text>
   </g>
 
   <!-- React Logo (right side) - Static with proper design -->
   <g>
     <!-- Outer circles for reference -->
-    <circle cx="880" cy="135" r="74" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.24" />
+    <circle cx="880" cy="135" r="82" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.24" />
     <!-- Orbital paths - three ellipses at 45 degree angles -->
-    <ellipse cx="880" cy="135" rx="36" ry="16" fill="none" stroke="#61dafb" stroke-width="3" opacity="0.9" />
-    <ellipse cx="880" cy="135" rx="36" ry="16" fill="none" stroke="#61dafb" stroke-width="3" opacity="0.9" transform="rotate(60 880 135)" />
-    <ellipse cx="880" cy="135" rx="36" ry="16" fill="none" stroke="#61dafb" stroke-width="3" opacity="0.9" transform="rotate(120 880 135)" />
+    <ellipse cx="880" cy="135" rx="48" ry="20" fill="none" stroke="#61dafb" stroke-width="3.5" opacity="0.9" />
+    <ellipse cx="880" cy="135" rx="48" ry="20" fill="none" stroke="#61dafb" stroke-width="3.5" opacity="0.9" transform="rotate(60 880 135)" />
+    <ellipse cx="880" cy="135" rx="48" ry="20" fill="none" stroke="#61dafb" stroke-width="3.5" opacity="0.9" transform="rotate(120 880 135)" />
     <!-- Electron dots on orbits -->
-    <circle cx="916" cy="135" r="4" fill="#61dafb" />
-    <circle cx="852" cy="160" r="4" fill="#61dafb" />
-    <circle cx="900" cy="104" r="4" fill="#61dafb" />
+    <circle cx="928" cy="135" r="5" fill="#61dafb" />
+    <circle cx="844" cy="165" r="5" fill="#61dafb" />
+    <circle cx="910" cy="99" r="5" fill="#61dafb" />
     <!-- Center nucleus -->
-    <circle cx="880" cy="135" r="8" fill="#61dafb" />
+    <circle cx="880" cy="135" r="10" fill="#61dafb" />
   </g>
 
   <!-- Main title -->
