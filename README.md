@@ -1,33 +1,104 @@
-<h1 align="center"> Hi there 👋, I'm Miguelangel</h1>
-<pre>
-💻 I am developing my skills as a Frontend Developer | Enthuastic about new technologies
-📚 I have a Bachelors in Computer Science and a Masters in Artificial Intelligence & Deep Learning
-📝 I have a strong interest in building Frontend Uis for ML applications
-🌱 Focusing on Learning about customer needs and making their lives easier
-🌟 Main languages: Javascript, Python
-🚩 Interested in Full Stack Machine Learning Application development
-</pre>
-
-# 💻Tech Stack <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px>
-
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-darkblue.svg?style=for-the-badge&logo=python&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-6DA55F.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Figma](https://img.shields.io/badge/figma-black.svg?style=for-the-badge&logo=figma&logoColor=red) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
-
 <div align="center">
-  <h3><b>Let's get in touch! </b></h3>
-  </div>
-<p align="center">
-<a href="https://www.linkedin.com/in/miguelangel-restrepo-2a814228b" target="_blank">
-  <img align="center" alt="Miguel Restrepo | Linkedin" width="24px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Linkedin.svg" />
-</a> &nbsp;&nbsp;
-<a href="https://www.instagram.com/migue._.rg/" target="_blank">
-  <img align="center" alt="Miguel Restrepo | Instagram" width="24px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Instagram.svg" />
-</a> &nbsp;&nbsp;
-<p>
-<p align="center">
-  <img src="https://github.com/StefanosSt/StefanosSt/blob/main/github-user-contribution.svg" alt="snake">
-</p>
+
+# 👨‍💻 Miguelangel Restrepo
+
+**Full Stack Developer**
+
+Specialist in building **scalable and professional SPAs** with modular architecture, clean code, and exceptional user experiences.  
+Passionate about technology, team collaboration, and clear documentation.
+
+</div>
 
 ---
 
-[MigueRestreG]([https://github.com/StefanosSt](https://github.com/MigueRestreG))
-Last Edited on : 2/03/2026
+## 🎯 About Me
+
+I'm a developer with a focus on delivering high-impact solutions. I specialize in:
+
+- 🏗️ **Clean and scalable architecture** in modern web applications
+- 🎨 **UX/UI design** centered on user experience
+- 📚 **Documentation and knowledge sharing** for technical teams
+- 👥 **Team collaboration** with strong communication and problem-solving skills
+- 🔄 **Scrum methodology** expertise in agile environments
+- 🤖 **AI integration** in digital products
+
+With a background in Computer Science and a Master's in Artificial Intelligence & Deep Learning, I combine deep technical knowledge with a user-centric approach. I thrive in collaborative environments and am committed to delivering quality solutions through effective teamwork and structured processes.
+
+---
+
+## 💼 Tech Stack
+
+### Frontend
+![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=%23323330)
+
+### Backend & Data
+![Node.js](https://img.shields.io/badge/Node.js-%236DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+
+### Development Tools
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+### Design & Prototyping
+![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=canva&logoColor=white)
+
+### AI & Data
+![Artificial Intelligence](https://img.shields.io/badge/AI%20%26%20ML-%23000000.svg?style=for-the-badge)
+
+
+## 🏛️ My Professional Approach
+
+### Clean Architecture
+I build applications with clear separation of concerns, reusable components, and maintainable code.
+
+### Scalability
+I design solutions with growth in mind: from prototype to millions of users.
+
+### Clear Documentation
+I create accessible documentation that serves both developers and stakeholders, facilitating collaboration and onboarding.
+
+### Team Collaboration
+Strong communication and collaborative mindset. I believe in knowledge sharing and collective problem-solving within agile teams.
+
+### Scrum Methodology
+Experienced in agile development with Scrum practices: sprint planning, daily standups, retrospectives, and continuous improvement.
+
+### User Experience
+Every line of code aims to deliver real value to end users.
+
+---
+
+## 🎨 Design & Prototyping
+
+Beyond writing code, I actively participate in interface design:
+
+- **Figma**: Creating design systems and interactive prototypes
+- **Canva**: Designing visual content for marketing and communication
+
+I believe the best code lives seamlessly between design and implementation.
+
+---
+
+## 📬 Let's Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miguelangel-restrepo-2a814228b)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/migue._.rg/)
+[![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MigueRestreG)
+
+</div>
+
+---
+
+<div align="center">
+
+**Always open to conversations about technology, architecture, and innovative solutions** 💡
+
+</div>
