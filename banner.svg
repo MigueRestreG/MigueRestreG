@@ -219,7 +219,7 @@
   </g>
 
   <!-- Main title -->
-  <text x="600" y="356" font-size="66" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2" filter="url(#glow)">MIGUELANGEL RESTREPO</text>
+  <text x="600" y="356" font-size="66" font-weight="bold" fill="#cbd5e1" text-anchor="middle" letter-spacing="2">MIGUELANGEL RESTREPO</text>
 
   <!-- Subtitle -->
   <text x="600" y="414" font-size="26" fill="#cbd5e1" text-anchor="middle" letter-spacing="1">Full Stack Developer</text>
