@@ -204,37 +204,32 @@
     <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
   </line>
 
-  <!-- Central frame for the hero content -->
-  <rect x="180" y="238" width="840" height="280" rx="26" fill="none" stroke="#00d4ff" stroke-opacity="0.16" stroke-width="1.5" />
-  <line x1="260" y1="292" x2="940" y2="292" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.16" />
-  <line x1="260" y1="444" x2="940" y2="444" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.16" />
-
   <!-- Next.js Logo (left side) - Static with official Next.js N design -->
   <g>
-    <circle cx="120" cy="118" r="46" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.28" />
+    <circle cx="120" cy="118" r="62" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.28" />
     <!-- Official Next.js N with thick strokes -->
     <!-- Left vertical line -->
-    <line x1="100" y1="98" x2="100" y2="138" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="90" y1="86" x2="90" y2="150" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
     <!-- Right vertical line -->
-    <line x1="140" y1="98" x2="140" y2="138" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="150" y1="86" x2="150" y2="150" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
     <!-- Diagonal line from bottom-left to top-right -->
-    <line x1="100" y1="138" x2="140" y2="98" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="90" y1="150" x2="150" y2="86" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
   </g>
 
   <!-- React Logo (right side) - Static with proper design -->
   <g>
     <!-- Outer circles for reference -->
-    <circle cx="1080" cy="118" r="46" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.28" />
+    <circle cx="1080" cy="118" r="62" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.28" />
     <!-- Orbital paths - three ellipses at 45 degree angles -->
-    <ellipse cx="1080" cy="118" rx="22" ry="10" fill="none" stroke="#61dafb" stroke-width="2.5" opacity="0.9" />
-    <ellipse cx="1080" cy="118" rx="22" ry="10" fill="none" stroke="#61dafb" stroke-width="2.5" opacity="0.9" transform="rotate(60 1080 118)" />
-    <ellipse cx="1080" cy="118" rx="22" ry="10" fill="none" stroke="#61dafb" stroke-width="2.5" opacity="0.9" transform="rotate(120 1080 118)" />
+    <ellipse cx="1080" cy="118" rx="30" ry="13" fill="none" stroke="#61dafb" stroke-width="3" opacity="0.9" />
+    <ellipse cx="1080" cy="118" rx="30" ry="13" fill="none" stroke="#61dafb" stroke-width="3" opacity="0.9" transform="rotate(60 1080 118)" />
+    <ellipse cx="1080" cy="118" rx="30" ry="13" fill="none" stroke="#61dafb" stroke-width="3" opacity="0.9" transform="rotate(120 1080 118)" />
     <!-- Electron dots on orbits -->
-    <circle cx="1102" cy="118" r="2.5" fill="#61dafb" />
-    <circle cx="1065" cy="136" r="2.5" fill="#61dafb" />
-    <circle cx="1095" cy="98" r="2.5" fill="#61dafb" />
+    <circle cx="1110" cy="118" r="3.5" fill="#61dafb" />
+    <circle cx="1056" cy="140" r="3.5" fill="#61dafb" />
+    <circle cx="1098" cy="93" r="3.5" fill="#61dafb" />
     <!-- Center nucleus -->
-    <circle cx="1080" cy="118" r="5" fill="#61dafb" />
+    <circle cx="1080" cy="118" r="7" fill="#61dafb" />
   </g>
 
   <!-- Main title -->
