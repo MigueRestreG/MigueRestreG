@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👨‍💻 Miguelangel Restrepo
+# Miguelangel Restrepo
 
 **Full Stack Developer**
 
@@ -11,22 +11,22 @@ Passionate about technology, team collaboration, and clear documentation.
 
 ---
 
-## 🎯 About Me
+## About Me
 
 I'm a developer with a focus on delivering high-impact solutions. I specialize in:
 
-- 🏗️ **Clean and scalable architecture** in modern web applications
-- 🎨 **UX/UI design** centered on user experience
-- 📚 **Documentation and knowledge sharing** for technical teams
-- 👥 **Team collaboration** with strong communication and problem-solving skills
-- 🔄 **Scrum methodology** expertise in agile environments
-- 🤖 **AI integration** in digital products
+- **Clean and scalable architecture** in modern web applications
+- **UX/UI design** centered on user experience
+- **Documentation and knowledge sharing** for technical teams
+- **Team collaboration** with strong communication and problem-solving skills
+- **Scrum methodology** expertise in agile environments
+- **AI integration** in digital products
 
 With a background in Computer Science and a Master's in Artificial Intelligence & Deep Learning, I combine deep technical knowledge with a user-centric approach. I thrive in collaborative environments and am committed to delivering quality solutions through effective teamwork and structured processes.
 
 ---
 
-## 💼 Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -47,20 +47,20 @@ With a background in Computer Science and a Master's in Artificial Intelligence 
 </div>
 
 
-## 🏛️ My Professional Approach
+## My Professional Approach
 
 | Approach | Focus |
 |----------|-------|
-| 🏗️ **Clean Architecture** | Clear separation of concerns, reusable components, and maintainable code |
-| 📈 **Scalability** | Solutions designed from prototype to millions of users |
-| 📚 **Clear Documentation** | Accessible docs for developers and stakeholders |
-| 👥 **Team Collaboration** | Knowledge sharing and collective problem-solving |
-| 🔄 **Scrum Methodology** | Sprint planning, standups, retrospectives, continuous improvement |
-| 💡 **User Experience** | Every line of code delivers real value to end users |
+| **Clean Architecture** | Clear separation of concerns, reusable components, and maintainable code |
+| **Scalability** | Solutions designed from prototype to millions of users |
+| **Clear Documentation** | Accessible docs for developers and stakeholders |
+| **Team Collaboration** | Knowledge sharing and collective problem-solving |
+| **Scrum Methodology** | Sprint planning, standups, retrospectives, continuous improvement |
+| **User Experience** | Every line of code delivers real value to end users |
 
 ---
 
-## 🎨 Design & Prototyping
+## Design & Prototyping
 
 Beyond writing code, I actively participate in interface design:
 
@@ -71,7 +71,7 @@ I believe the best code lives seamlessly between design and implementation.
 
 ---
 
-## 📬 Let's Connect
+## Let's Connect
 
 <div align="center">
 
@@ -85,6 +85,6 @@ I believe the best code lives seamlessly between design and implementation.
 
 <div align="center">
 
-**Always open to conversations about technology, architecture, and innovative solutions** 💡
+**Always open to conversations about technology, architecture, and innovative solutions**
 
 </div>
