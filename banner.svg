@@ -7,40 +7,52 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <linearGradient id="trailGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color: #00d4ff; stop-opacity: 0;" />
-      <stop offset="50%" style="stop-color: #00d4ff; stop-opacity: 0.6;" />
-      <stop offset="100%" style="stop-color: #00d4ff; stop-opacity: 0;" />
-    </linearGradient>
   </defs>
 
-  <!-- Particle stream 1 with trails -->
-  <!-- Trail circles 1 -->
+  <!-- Particle stream 1 with extended trails -->
+  <!-- Trail 1 - Multiple layers for longer trail effect -->
+  <circle cx="150" cy="450" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.05">
+    <animate attributeName="cy" from="450" to="-70" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="150" cy="440" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.1">
+    <animate attributeName="cy" from="440" to="-60" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="150" cy="430" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
+    <animate attributeName="cy" from="430" to="-50" dur="4s" repeatCount="indefinite" />
+  </circle>
   <circle cx="150" cy="420" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.2">
-    <animate attributeName="cy" from="420" to="-20" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="cy" from="420" to="-40" dur="4s" repeatCount="indefinite" />
   </circle>
-  <circle cx="150" cy="430" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
-    <animate attributeName="cy" from="430" to="-10" dur="4s" repeatCount="indefinite" />
+  <circle cx="150" cy="410" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.25">
+    <animate attributeName="cy" from="410" to="-30" dur="4s" repeatCount="indefinite" />
   </circle>
-  
-  <!-- Main particle 1 -->
   <circle cx="150" cy="400" r="2" fill="#00d4ff">
     <animate attributeName="cy" from="400" to="0" dur="4s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite" />
     <animate attributeName="r" values="2;2;1;0" dur="4s" repeatCount="indefinite" />
   </circle>
 
-  <!-- Trail circles 2 -->
+  <!-- Trail 2 -->
+  <circle cx="200" cy="455" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.05">
+    <animate attributeName="cy" from="455" to="-85" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="200" to="238" dur="5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="200" cy="445" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.1">
+    <animate attributeName="cy" from="445" to="-75" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="200" to="237" dur="5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="200" cy="430" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
+    <animate attributeName="cy" from="430" to="-60" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="200" to="236" dur="5s" repeatCount="indefinite" />
+  </circle>
   <circle cx="200" cy="420" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.2">
-    <animate attributeName="cy" from="420" to="-40" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="cy" from="420" to="-50" dur="5s" repeatCount="indefinite" />
     <animate attributeName="cx" from="200" to="235" dur="5s" repeatCount="indefinite" />
   </circle>
-  <circle cx="200" cy="435" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
-    <animate attributeName="cy" from="435" to="-25" dur="5s" repeatCount="indefinite" />
-    <animate attributeName="cx" from="200" to="235" dur="5s" repeatCount="indefinite" />
+  <circle cx="200" cy="410" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.25">
+    <animate attributeName="cy" from="410" to="-40" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="200" to="234" dur="5s" repeatCount="indefinite" />
   </circle>
-  
-  <!-- Main particle 2 -->
   <circle cx="200" cy="400" r="2" fill="#00d4ff">
     <animate attributeName="cy" from="400" to="-20" dur="5s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite" />
@@ -48,32 +60,49 @@
     <animate attributeName="cx" from="200" to="230" dur="5s" repeatCount="indefinite" />
   </circle>
 
-  <!-- Trail circles 3 -->
-  <circle cx="300" cy="425" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.2">
-    <animate attributeName="cy" from="425" to="-25" dur="4.5s" repeatCount="indefinite" />
+  <!-- Trail 3 -->
+  <circle cx="300" cy="450" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.05">
+    <animate attributeName="cy" from="450" to="-65" dur="4.5s" repeatCount="indefinite" />
   </circle>
-  <circle cx="300" cy="435" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
-    <animate attributeName="cy" from="435" to="-15" dur="4.5s" repeatCount="indefinite" />
+  <circle cx="300" cy="440" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.1">
+    <animate attributeName="cy" from="440" to="-55" dur="4.5s" repeatCount="indefinite" />
   </circle>
-  
-  <!-- Main particle 3 -->
+  <circle cx="300" cy="430" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
+    <animate attributeName="cy" from="430" to="-45" dur="4.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="300" cy="420" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.2">
+    <animate attributeName="cy" from="420" to="-35" dur="4.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="300" cy="410" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.25">
+    <animate attributeName="cy" from="410" to="-25" dur="4.5s" repeatCount="indefinite" />
+  </circle>
   <circle cx="300" cy="400" r="2" fill="#00d4ff">
     <animate attributeName="cy" from="400" to="0" dur="4.5s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="0;1;1;0" dur="4.5s" repeatCount="indefinite" />
     <animate attributeName="r" values="2;2;1;0" dur="4.5s" repeatCount="indefinite" />
   </circle>
 
-  <!-- Trail circles 4 -->
-  <circle cx="450" cy="425" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.2">
-    <animate attributeName="cy" from="425" to="-55" dur="5.5s" repeatCount="indefinite" />
+  <!-- Trail 4 -->
+  <circle cx="450" cy="455" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.05">
+    <animate attributeName="cy" from="455" to="-90" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="450" to="488" dur="5.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="450" cy="445" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.1">
+    <animate attributeName="cy" from="445" to="-80" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="450" to="487" dur="5.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="450" cy="432" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
+    <animate attributeName="cy" from="432" to="-67" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="450" to="486" dur="5.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="450" cy="420" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.2">
+    <animate attributeName="cy" from="420" to="-55" dur="5.5s" repeatCount="indefinite" />
     <animate attributeName="cx" from="450" to="485" dur="5.5s" repeatCount="indefinite" />
   </circle>
-  <circle cx="450" cy="440" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
-    <animate attributeName="cy" from="440" to="-40" dur="5.5s" repeatCount="indefinite" />
-    <animate attributeName="cx" from="450" to="485" dur="5.5s" repeatCount="indefinite" />
+  <circle cx="450" cy="410" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.25">
+    <animate attributeName="cy" from="410" to="-45" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="450" to="484" dur="5.5s" repeatCount="indefinite" />
   </circle>
-  
-  <!-- Main particle 4 -->
   <circle cx="450" cy="400" r="2" fill="#00d4ff">
     <animate attributeName="cy" from="400" to="-30" dur="5.5s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="0;1;1;0" dur="5.5s" repeatCount="indefinite" />
@@ -81,18 +110,28 @@
     <animate attributeName="cx" from="450" to="480" dur="5.5s" repeatCount="indefinite" />
   </circle>
 
-  <!-- Particle stream 2 with trails -->
-  <!-- Trail circles 5 -->
+  <!-- Particle stream 2 with extended trails -->
+  <!-- Trail 5 -->
+  <circle cx="850" cy="450" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.05">
+    <animate attributeName="cy" from="450" to="-75" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="850" to="812" dur="6s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="850" cy="440" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.1">
+    <animate attributeName="cy" from="440" to="-65" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="850" to="813" dur="6s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="850" cy="430" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
+    <animate attributeName="cy" from="430" to="-55" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="850" to="814" dur="6s" repeatCount="indefinite" />
+  </circle>
   <circle cx="850" cy="420" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.2">
-    <animate attributeName="cy" from="420" to="-30" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="cy" from="420" to="-45" dur="6s" repeatCount="indefinite" />
     <animate attributeName="cx" from="850" to="815" dur="6s" repeatCount="indefinite" />
   </circle>
-  <circle cx="850" cy="435" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
-    <animate attributeName="cy" from="435" to="-15" dur="6s" repeatCount="indefinite" />
-    <animate attributeName="cx" from="850" to="815" dur="6s" repeatCount="indefinite" />
+  <circle cx="850" cy="410" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.25">
+    <animate attributeName="cy" from="410" to="-35" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="850" to="816" dur="6s" repeatCount="indefinite" />
   </circle>
-  
-  <!-- Main particle 5 -->
   <circle cx="850" cy="400" r="2" fill="#00d4ff">
     <animate attributeName="cy" from="400" to="0" dur="6s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite" />
@@ -100,17 +139,27 @@
     <animate attributeName="cx" from="850" to="820" dur="6s" repeatCount="indefinite" />
   </circle>
 
-  <!-- Trail circles 6 -->
-  <circle cx="950" cy="425" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.2">
-    <animate attributeName="cy" from="425" to="-45" dur="5.5s" repeatCount="indefinite" />
+  <!-- Trail 6 -->
+  <circle cx="950" cy="455" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.05">
+    <animate attributeName="cy" from="455" to="-80" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="950" to="912" dur="5.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="950" cy="445" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.1">
+    <animate attributeName="cy" from="445" to="-70" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="950" to="913" dur="5.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="950" cy="432" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
+    <animate attributeName="cy" from="432" to="-57" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="950" to="914" dur="5.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="950" cy="420" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.2">
+    <animate attributeName="cy" from="420" to="-45" dur="5.5s" repeatCount="indefinite" />
     <animate attributeName="cx" from="950" to="915" dur="5.5s" repeatCount="indefinite" />
   </circle>
-  <circle cx="950" cy="440" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
-    <animate attributeName="cy" from="440" to="-30" dur="5.5s" repeatCount="indefinite" />
-    <animate attributeName="cx" from="950" to="915" dur="5.5s" repeatCount="indefinite" />
+  <circle cx="950" cy="410" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.25">
+    <animate attributeName="cy" from="410" to="-35" dur="5.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="950" to="916" dur="5.5s" repeatCount="indefinite" />
   </circle>
-  
-  <!-- Main particle 6 -->
   <circle cx="950" cy="400" r="2" fill="#00d4ff">
     <animate attributeName="cy" from="400" to="-20" dur="5.5s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="0;1;1;0" dur="5.5s" repeatCount="indefinite" />
@@ -118,17 +167,27 @@
     <animate attributeName="cx" from="950" to="920" dur="5.5s" repeatCount="indefinite" />
   </circle>
 
-  <!-- Trail circles 7 -->
+  <!-- Trail 7 -->
+  <circle cx="1050" cy="450" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.05">
+    <animate attributeName="cy" from="450" to="-75" dur="6.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="1050" to="1012" dur="6.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1050" cy="440" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.1">
+    <animate attributeName="cy" from="440" to="-65" dur="6.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="1050" to="1013" dur="6.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1050" cy="430" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
+    <animate attributeName="cy" from="430" to="-55" dur="6.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="1050" to="1014" dur="6.5s" repeatCount="indefinite" />
+  </circle>
   <circle cx="1050" cy="420" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.2">
-    <animate attributeName="cy" from="420" to="-50" dur="6.5s" repeatCount="indefinite" />
+    <animate attributeName="cy" from="420" to="-45" dur="6.5s" repeatCount="indefinite" />
     <animate attributeName="cx" from="1050" to="1015" dur="6.5s" repeatCount="indefinite" />
   </circle>
-  <circle cx="1050" cy="435" r="2.5" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15">
-    <animate attributeName="cy" from="435" to="-35" dur="6.5s" repeatCount="indefinite" />
-    <animate attributeName="cx" from="1050" to="1015" dur="6.5s" repeatCount="indefinite" />
+  <circle cx="1050" cy="410" r="2.8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.25">
+    <animate attributeName="cy" from="410" to="-35" dur="6.5s" repeatCount="indefinite" />
+    <animate attributeName="cx" from="1050" to="1016" dur="6.5s" repeatCount="indefinite" />
   </circle>
-  
-  <!-- Main particle 7 -->
   <circle cx="1050" cy="400" r="2" fill="#00d4ff">
     <animate attributeName="cy" from="400" to="0" dur="6.5s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="0;1;1;0" dur="6.5s" repeatCount="indefinite" />
@@ -158,11 +217,9 @@
     <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="360 1130 70;0 1130 70" dur="20s" repeatCount="indefinite" />
     <circle cx="1130" cy="70" r="50" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.3" />
     <circle cx="1130" cy="70" r="35" fill="none" stroke="#61dafb" stroke-width="2" />
-    <!-- Electron orbits -->
     <ellipse cx="1130" cy="70" rx="20" ry="8" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.5" />
     <ellipse cx="1130" cy="70" rx="12" ry="18" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.5" transform="rotate(60 1130 70)" />
     <ellipse cx="1130" cy="70" rx="12" ry="18" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.5" transform="rotate(-60 1130 70)" />
-    <!-- Center dot -->
     <circle cx="1130" cy="70" r="3" fill="#61dafb" />
   </g>
 
