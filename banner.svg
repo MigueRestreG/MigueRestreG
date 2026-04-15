@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
   <defs>
     <filter id="glow">
       <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
@@ -204,6 +204,9 @@
     <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
   </line>
 
+  <!-- Central text panel for readability in light and dark themes -->
+  <rect x="140" y="260" width="920" height="300" rx="30" fill="#0f172a" fill-opacity="0.72" stroke="#00d4ff" stroke-opacity="0.18" stroke-width="1.5" />
+
   <!-- Next.js Logo (left side) - Static with official Next.js N design -->
   <g>
     <circle cx="70" cy="70" r="50" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.3" />
@@ -233,16 +236,16 @@
   </g>
 
   <!-- Main title -->
-  <text x="600" y="160" font-size="72" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="2" filter="url(#glow)">MIGUELANGEL RESTREPO</text>
+  <text x="600" y="385" font-size="72" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2" filter="url(#glow)">MIGUELANGEL RESTREPO</text>
 
   <!-- Subtitle -->
-  <text x="600" y="230" font-size="28" fill="#e0e0e0" text-anchor="middle" letter-spacing="1">Full Stack Developer</text>
+  <text x="600" y="455" font-size="28" fill="#cbd5e1" text-anchor="middle" letter-spacing="1">Full Stack Developer</text>
 
   <!-- Bottom accent line -->
-  <line x1="300" y1="280" x2="900" y2="280" stroke="#00d4ff" stroke-width="3" opacity="0.5">
+  <line x1="280" y1="520" x2="920" y2="520" stroke="#00d4ff" stroke-width="3" opacity="0.5">
     <animate attributeName="opacity" values="0.5;0.8;0.5" dur="2s" repeatCount="indefinite" />
   </line>
 
   <!-- Tech keywords -->
-  <text x="600" y="330" font-size="16" fill="#00d4ff" text-anchor="middle" letter-spacing="3" filter="url(#glow)">REACT • NODE.JS • TYPESCRIPT • SCRUM</text>
+  <text x="600" y="595" font-size="16" fill="#00d4ff" text-anchor="middle" letter-spacing="3" filter="url(#glow)">REACT • NODE.JS • TYPESCRIPT • SCRUM</text>
 </svg>
