@@ -204,16 +204,16 @@
     <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
   </line>
 
-  <!-- Next.js Logo (left side) - Static with official N design -->
+  <!-- Next.js Logo (left side) - Static with official Next.js N design -->
   <g>
     <circle cx="70" cy="70" r="50" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.3" />
-    <!-- Modern N design based on official Next.js logo -->
+    <!-- Official Next.js N with thick strokes -->
     <!-- Left vertical line -->
-    <line x1="50" y1="55" x2="50" y2="85" stroke="#ffffff" stroke-width="5" stroke-linecap="round" />
+    <line x1="48" y1="50" x2="48" y2="90" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
     <!-- Right vertical line -->
-    <line x1="90" y1="55" x2="90" y2="85" stroke="#ffffff" stroke-width="5" stroke-linecap="round" />
-    <!-- Diagonal line -->
-    <line x1="50" y1="85" x2="90" y2="55" stroke="#ffffff" stroke-width="5" stroke-linecap="round" />
+    <line x1="92" y1="50" x2="92" y2="90" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Diagonal line from bottom-left to top-right -->
+    <line x1="48" y1="90" x2="92" y2="50" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
   </g>
 
   <!-- React Logo (right side) - Static with proper design -->
