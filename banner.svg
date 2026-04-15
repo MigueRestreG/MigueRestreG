@@ -204,23 +204,25 @@
     <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
   </line>
 
-  <!-- Next.js Logo (left side) - Rotating -->
+  <!-- Next.js Logo (left side) - Static -->
   <g>
-    <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="0 70 70;360 70 70" dur="20s" repeatCount="indefinite" />
     <circle cx="70" cy="70" r="50" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.3" />
     <circle cx="70" cy="70" r="35" fill="none" stroke="#ffffff" stroke-width="2" />
     <text x="70" y="78" font-size="32" font-weight="bold" fill="white" text-anchor="middle">N</text>
   </g>
 
-  <!-- React Logo (right side) - Rotating reverse -->
+  <!-- React Logo (right side) - Static with improved design -->
   <g>
-    <animateTransform attributeName="transform" attributeType="XML" type="rotate" values="360 1130 70;0 1130 70" dur="20s" repeatCount="indefinite" />
     <circle cx="1130" cy="70" r="50" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.3" />
     <circle cx="1130" cy="70" r="35" fill="none" stroke="#61dafb" stroke-width="2" />
-    <ellipse cx="1130" cy="70" rx="20" ry="8" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.5" />
-    <ellipse cx="1130" cy="70" rx="12" ry="18" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.5" transform="rotate(60 1130 70)" />
-    <ellipse cx="1130" cy="70" rx="12" ry="18" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.5" transform="rotate(-60 1130 70)" />
-    <circle cx="1130" cy="70" r="3" fill="#61dafb" />
+    <!-- Electron orbits - Three tilt angles for better 3D effect -->
+    <circle cx="1155" cy="70" r="2" fill="#61dafb" opacity="0.8" />
+    <circle cx="1105" cy="70" r="2" fill="#61dafb" opacity="0.8" />
+    <circle cx="1130" cy="95" r="2" fill="#61dafb" opacity="0.8" />
+    <!-- Orbit arcs -->
+    <circle cx="1130" cy="70" r="25" fill="none" stroke="#61dafb" stroke-width="1" opacity="0.5" />
+    <!-- Center nucleus -->
+    <circle cx="1130" cy="70" r="4" fill="#61dafb" />
   </g>
 
   <!-- Main title -->
