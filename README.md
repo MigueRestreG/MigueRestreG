@@ -1,8 +1,6 @@
+![Miguelangel Banner](banner.svg)
+
 <div align="center">
-
-# Miguelangel Restrepo
-
-**Full Stack Developer**
 
 Specialist in building **scalable and professional SPAs** with modular architecture, clean code, and exceptional user experiences.  
 Passionate about technology, team collaboration, and clear documentation.

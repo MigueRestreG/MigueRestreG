@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .banner-bg {
+        fill: url(#gradient);
+      }
+      .main-title {
+        font-size: 72px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        fill: white;
+        text-anchor: middle;
+        letter-spacing: 2px;
+      }
+      .subtitle {
+        font-size: 28px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        fill: #e0e0e0;
+        text-anchor: middle;
+        font-weight: 300;
+        letter-spacing: 1px;
+      }
+      .accent-line {
+        stroke: #00d4ff;
+        stroke-width: 3;
+      }
+    </style>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: #0f0f23; stop-opacity: 1;" />
+      <stop offset="50%" style="stop-color: #1a1a3e; stop-opacity: 1;" />
+      <stop offset="100%" style="stop-color: #0f0f23; stop-opacity: 1;" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" class="banner-bg" />
+
+  <!-- Decorative elements -->
+  <line x1="150" y1="150" x2="350" y2="150" class="accent-line" />
+  <line x1="850" y1="250" x2="1050" y2="250" class="accent-line" />
+
+  <!-- Main title -->
+  <text x="600" y="160" class="main-title">MIGUELANGEL RESTREPO</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="230" class="subtitle">Full Stack Developer</text>
+
+  <!-- Bottom accent line -->
+  <line x1="300" y1="280" x2="900" y2="280" class="accent-line" opacity="0.5" />
+
+  <!-- Tech keywords -->
+  <text x="600" y="330" style="font-size: 16px; font-family: 'Segoe UI', sans-serif; fill: #00d4ff; text-anchor: center; letter-spacing: 3px;">REACT • NODE.JS • TYPESCRIPT • SCRUM</text>
+</svg>
